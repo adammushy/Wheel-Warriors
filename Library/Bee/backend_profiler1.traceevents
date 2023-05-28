@@ -1,0 +1,600 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1685218133946607, "dur":2615, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218133949234, "dur":175, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685218133949484, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685218133949522, "dur":343, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685218133949924, "dur":1613, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218133951537, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136332669, "dur":262, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136332931, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136332961, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136332971, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136332993, "dur":70, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136333063, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136333083, "dur":45281, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136378365, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136378397, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136378427, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136378485, "dur":16620, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685218133950945, "dur":613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218133951563, "dur":6044, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218133957626, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685218133957683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218133979423, "dur":742, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685218133980174, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685218133980250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218133982981, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685218133986766, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685218133986813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218133986935, "dur":36699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685218134023689, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685218134023726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134024272, "dur":27165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1685218134051460, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685218134051501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134051508, "dur":32269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685218134083804, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685218134083842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134083849, "dur":65379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1685218134149259, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134149301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134149761, "dur":81542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134231356, "dur":1161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685218134232521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134232530, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS.exe" }}
+,{ "pid":12345, "tid":1, "ts":1685218134235506, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1685218134235563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134236000, "dur":514353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1685218134750416, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134750508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134750523, "dur":3673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134754269, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134754342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134754355, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134757152, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134757225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134757238, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134763790, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134763871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134763885, "dur":3204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134767180, "dur":2550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134769739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134769757, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134772917, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134772993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134773007, "dur":7869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134780942, "dur":7999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134788947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134788998, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134792204, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134792272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134792285, "dur":5262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134797643, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134797725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134797738, "dur":6388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134804287, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134804398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134804412, "dur":9136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134813622, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134813718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134813733, "dur":31622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134845418, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134845513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134845526, "dur":14345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134859946, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134860023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134860036, "dur":10642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134870754, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134870832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134870845, "dur":11281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134882216, "dur":5418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134887642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134887657, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685218134890892, "dur":758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1685218134891661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134891769, "dur":4731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1685218134896591, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218134896695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134898804, "dur":13202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218134912097, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1685218134912189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134912364, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1685218134915699, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1685218134916169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134916189, "dur":16299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1685218134932584, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218134932676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134932755, "dur":30425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218134963251, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218134963324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134963757, "dur":15056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218134978907, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218134979031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218134979048, "dur":24464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218135003614, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218135003715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135009400, "dur":14229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.vis" }}
+,{ "pid":12345, "tid":1, "ts":1685218135023704, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218135023787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135023801, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1685218135030607, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218135030673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135030682, "dur":22488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218135053248, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218135053335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135053360, "dur":274451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218135327884, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135327957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135327969, "dur":47816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135375864, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685218135375935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135375946, "dur":12049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685218135388065, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135388139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135388150, "dur":130582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135518840, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685218135518987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135519001, "dur":83732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1685218135602818, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135603057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135603073, "dur":125507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685218135728658, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1685218135728774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135728788, "dur":67815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level6" }}
+,{ "pid":12345, "tid":1, "ts":1685218135796680, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1685218135796759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135796771, "dur":139068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1685218135935919, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218135936009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218135936021, "dur":138901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level2.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218136074998, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218136075071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218136075082, "dur":166456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1685218136241617, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1685218136241826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685218136241839, "dur":80857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1685218136322778, "dur":9877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218133951099, "dur":489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218133951588, "dur":6049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218133957639, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685218133957731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218133983096, "dur":49484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685218134032615, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685218134032683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134032760, "dur":18953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1685218134051738, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685218134051788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134052507, "dur":51732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1685218134104282, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685218134104342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134104351, "dur":67817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1685218134172212, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134172328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134172447, "dur":637245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134809747, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134809877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134809892, "dur":35400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134845361, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134845440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134845450, "dur":8683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134854201, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134854273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134854285, "dur":16524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134870879, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134870950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134870961, "dur":11174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134882196, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134882300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134882314, "dur":7735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134890131, "dur":19746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134909885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134909900, "dur":11586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685218134921537, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.vis" }}
+,{ "pid":12345, "tid":2, "ts":1685218134921596, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134930804, "dur":12051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.vis" }}
+,{ "pid":12345, "tid":2, "ts":1685218134942912, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218134942963, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134942973, "dur":13461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218134956497, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.caw" }}
+,{ "pid":12345, "tid":2, "ts":1685218134956559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134956569, "dur":9245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.caw" }}
+,{ "pid":12345, "tid":2, "ts":1685218134965902, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218134966013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134975395, "dur":7201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218134982680, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1685218134982776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218134982791, "dur":26035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1685218135009321, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218135009463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135009589, "dur":14212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1685218135023873, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1685218135023958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135023972, "dur":7037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1685218135031073, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685218135031139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135031147, "dur":27759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685218135058996, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685218135059080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135059146, "dur":7336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1685218135066561, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218135066641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135066653, "dur":261241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218135327956, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218135328030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135328042, "dur":347102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218135675231, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685218135675310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135675323, "dur":106040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1685218135781432, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1685218135781507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135781521, "dur":196423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1685218135978029, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218135978111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218135978121, "dur":203185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218136181416, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218136181685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685218136181698, "dur":100595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685218136282372, "dur":50300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218133951042, "dur":529, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218133951572, "dur":6044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218133957626, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685218133957752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218133980110, "dur":25981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1685218134006126, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134006177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218134006185, "dur":26525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134032736, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685218134032780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218134032791, "dur":30987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1685218134063808, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134063867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218134063944, "dur":62671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134126658, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134126717, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218134126753, "dur":45518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1685218134172312, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685218134172378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218134172386, "dur":1125001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685218135297414, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685218135297466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135297473, "dur":219162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685218135516739, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135516851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135516889, "dur":70042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135587010, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685218135587226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135587238, "dur":86458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1685218135673779, "dur":1330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135675116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135675128, "dur":91924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135767158, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135767243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135767255, "dur":29048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135796422, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135796518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135796529, "dur":122527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1685218135919157, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1685218135919258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135919273, "dur":58861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1685218135978221, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1685218135978298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218135978306, "dur":224102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1685218136202495, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685218136202574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685218136202586, "dur":100398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685218136303202, "dur":29442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218133951193, "dur":411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218133951604, "dur":6035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218133957639, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218133957999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218133980004, "dur":26336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218134006364, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685218134006396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134006403, "dur":44996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1685218134051433, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218134051493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134051504, "dur":32291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218134083826, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218134083865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134083871, "dur":42770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218134126676, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685218134126751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134126760, "dur":51834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1685218134178636, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685218134178716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134178727, "dur":285934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1685218134464694, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134464760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134465261, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134468923, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134468985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134469041, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134472080, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134472143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134472152, "dur":4078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134476293, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134476350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134476360, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134480034, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134480101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134480111, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134482733, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134482788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134482796, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134485332, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134485405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134485413, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134488231, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134488273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134488281, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134490629, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134490678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134490686, "dur":3227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134493985, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134494042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134494055, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134496521, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134496572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134496579, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134499561, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134499611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134499618, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134501756, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134501794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134501801, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134503953, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134503993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134504001, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134506751, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134506795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134506803, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134510421, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134510488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134510501, "dur":3777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134514454, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134514528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134514541, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134517468, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134517516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134517524, "dur":2680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134520278, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134520353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134520365, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134523237, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134523326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134523338, "dur":5127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134528533, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134528602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134528615, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134531649, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134531725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134531737, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134537484, "dur":2029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134539518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134539528, "dur":7332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134546945, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134547058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134547073, "dur":2988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134550144, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134550207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134550215, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134552881, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134552928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134552936, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134555283, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134555329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134555337, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134560028, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134560094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134560105, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134563591, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134563640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134563649, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134566104, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134566150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134566159, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134569836, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134569893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134569905, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134573120, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134573168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134573177, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134576146, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134576192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134576200, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134578513, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134578585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134578595, "dur":2552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134581210, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134581256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134581264, "dur":2895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134584215, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134584258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134584266, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134587238, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134587276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134587284, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134589750, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134589817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134589825, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134592614, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134592692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134592705, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134595812, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134595887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134595902, "dur":60270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134656496, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134657297, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134657371, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134669888, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134670054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134670076, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134677154, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134677279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134677302, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134682040, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134682116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134682129, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134685561, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134685832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134685844, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134688743, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134688812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134688821, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134691776, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134691860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134691872, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134695331, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134695405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134695415, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134698063, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134698101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134698109, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134700506, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134700560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134700571, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134702743, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134702803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134702815, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134705683, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134705769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134705780, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134708890, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134708970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134708983, "dur":3182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134712231, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134712299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134712313, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134715795, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134715875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134715888, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134718891, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134718960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134718973, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134721908, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134721979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134721992, "dur":3793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134725853, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134725920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134725933, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134730207, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134730273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134730286, "dur":5835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134736199, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134736288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134736303, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134739481, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134739563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134739576, "dur":4393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134744088, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134744171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134744184, "dur":7907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134752169, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134752246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134752261, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134755560, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134755636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134755650, "dur":4504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134760233, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134760306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134760319, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134763871, "dur":789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134764666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134764680, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134767201, "dur":3802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134771014, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134771033, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134775365, "dur":3987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134779360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134779374, "dur":5466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134784925, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134785003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134785015, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134788164, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134788249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134788262, "dur":11681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134800013, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134800086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134800099, "dur":4645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134804832, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134804919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134804932, "dur":8552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134813560, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134813637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134813655, "dur":31618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134845343, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134845420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134845433, "dur":8782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134854274, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134854411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134854426, "dur":13174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134867679, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134867755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134867768, "dur":14102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134881937, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134882082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134882096, "dur":14740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685218134896904, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1685218134896995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134902084, "dur":10582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1685218134912743, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1685218134912865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134912884, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1685218134916781, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218134916870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134916887, "dur":16705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/91/91d97eada6c4b8d0b2948c256d1b72ef.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218134933670, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218134933745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134933761, "dur":22632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218134956475, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1685218134956539, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134956555, "dur":10103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/63/63182a3853e7366d0d74d4a22e10d90a.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1685218134966737, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218134966826, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218134975362, "dur":25266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218135000804, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218135000955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135000982, "dur":13185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4e/4eb7890be200d13a5bf46f166f7f42ae.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218135014261, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218135014356, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135014414, "dur":12522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1685218135027008, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218135027079, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135027091, "dur":5517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/GI/level6/4c/4c19d706000156430d2534930c6f81fd.caw" }}
+,{ "pid":12345, "tid":4, "ts":1685218135032686, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135032761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135032816, "dur":23144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135056041, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135056118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135056129, "dur":28317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135084539, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135084610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135084621, "dur":118414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685218135203196, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685218135203353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135203376, "dur":34284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685218135237713, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135237770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135237836, "dur":307105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135545033, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685218135545258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135545270, "dur":172124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1685218135717475, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135717554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135717566, "dur":81305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135798950, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135799024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135799037, "dur":152253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685218135951368, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1685218135951450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218135951462, "dur":184162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1685218136135703, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685218136135790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218136135801, "dur":137299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1685218136273177, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218136273390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685218136273974, "dur":58526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Mastra/Desktop/Wheel Warriors/WHEEL WARRIORS_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1685218136332585, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1685218136332587, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685218136414069, "dur":5462, "ph":"X", "name": "ProfilerWriteOutput" }
+,
